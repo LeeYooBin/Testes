@@ -1,6 +1,6 @@
 const fib = (numero, a = 0, b = 1) => {
-    if (a === numero || b === numero) return true;
-    else if (b > numero) return false;
+    if (a === numero || b === numero) return "Pertence";
+    else if (b > numero) return "Não pertence";
     return fib(numero, b, a + b);
 }
 
